@@ -64,26 +64,16 @@ const DockContent = () => {
 									fullWidth
 								/>
 							</Link>
-							<Link to="/vscode">
-								<DockItem img={CodeIcon} title="VS Code" />
-							</Link>
+							
 							<Link to="/git">
 								<DockItem img={GithubIcon} title="Git Log" />
 							</Link>
-							<Link to="/qemu">
-								<DockItem img={QemuIcon} title="Qemu" />
-							</Link>
+							
 
-							<a href="https://dope.boidushya.com">
+							<a href="https://this-website-is-dope-ronit.vercel.app/">
 								<DockItem img={DopeIcon} title="dope" />
 							</a>
-							<a href="https://founder.boidushya.com">
-								<DockItem
-									img={FounderIcon}
-									fullWidth
-									title='Minimal "Founder-esque" Website'
-								/>
-							</a>
+							
 							<div className="separator" />
 							<Link to="/resume">
 								<DockItem

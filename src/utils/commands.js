@@ -101,13 +101,6 @@ let commandList = [
 			"displays information about me in an aesthetic and visually pleasing way.",
 	},
 	{
-		name: ["code"],
-		action: true,
-		response: "",
-		subPathStrict: [true, { name: ".", response: "" }],
-		description: "opens a VS code window for this website's source code",
-	},
-	{
 		name: ["danger"],
 		action: true,
 		response: "",
@@ -121,14 +114,7 @@ let commandList = [
 		subPathStrict: [true, { name: "log", response: "" }],
 		description: "lists my github projects",
 	},
-	{
-		name: ["qemu"],
-		action: true,
-		response: "",
-		subPathStrict: [false],
-		description:
-			"an Operating System emulator that runs right on your browser (I had to flex I'm sorry)",
-	},
+	
 	{
 		name: ["help"],
 		action: true,

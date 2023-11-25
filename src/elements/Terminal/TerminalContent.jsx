@@ -123,8 +123,8 @@ const InputLine = props => {
 			const startTime = new Date();
 			const timer = setInterval(() => {
 				let timeSpentSec = Math.floor((new Date() - startTime) / 1000);
-				let timeSpentMin = Math.floor(timeSpentSec / 60);
-				if (timeSpentMin === 5 && !disabled) {
+				let timeSpentMin = Math.floor(timeSpentSec / 30);
+				if (timeSpentMin === 1 && !disabled) {
 					setVal("help");
 					inputRef.current.style.width =
 						inputRef.current.value.length + "ch";

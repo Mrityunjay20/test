@@ -17,7 +17,7 @@ const Routes = () => {
 			<Switch>
 				<Route path="/" exact component={Window} />
 				<Route path="/danger-zone" exact component={Danger} />
-				<Route path="/vscode" exact component={VSCode} />
+				{/* <Route path="/vscode" exact component={VSCode} /> */}
 				<Route path="/qemu" exact component={Linux} />
 				<Route path="/resume" exact component={Resume} />
 				<Route path="/git" exact component={Git} />
